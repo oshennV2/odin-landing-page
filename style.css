@@ -1,0 +1,190 @@
+html, body {
+   height: 100%;
+   margin: 0; /* Remove default margin */
+   padding: 0; /* Remove default padding */
+}
+ body{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family:Helvetica;
+    font-size:24px ;
+   align-items: center;
+   padding-bottom: 60px;
+   font-size:large;
+
+ }
+
+ ul{
+   display: flex;
+   list-style-type: none;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   font-size: large;
+   
+
+}
+
+button{
+   background-color: rgb(19, 169, 228);
+   color: white;
+   font-family: Helvetica;
+   border-radius: 10px;
+   font-size:15px;
+   padding: 10px;
+   border-color: white;
+   max-height: 40px;
+   max-width: 150px;
+   align-items: center;
+   justify-content: center;
+   font-weight: 800;
+
+}
+
+/* open section--------------*/
+ 
+.this{
+   font-size: 48px;
+   font-family:Helvetica;
+   font-weight: bolder;
+}
+
+.container-open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family:Helvetica;
+   gap: 100px;
+    
+    
+   }
+   
+   
+ .box-open{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    font-size: 24px;
+    font-size: large;
+    
+
+ }
+ .placeholder-box{
+    background-color: grey;
+    padding: 130px;
+ }
+ 
+ /* card section----------------*/
+ .container-fact{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+   align-items: center;
+   margin: 40px;
+   font-family: helvetica;
+   font-weight: 500;
+ }
+ .card-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 13px;
+  border-color: rgb(13, 169, 231);
+  gap: 30px;
+  margin-top: 30px;
+ }
+ .card{
+   display: flex;
+   flex-direction: column;
+   max-width: 150px;
+   text-align: center;
+   color: rgb(109, 107, 107);
+
+}
+.none{   
+   width: 150px; /* Adjust the width as needed */
+   height: 150px; /* Adjust the height as needed */
+   border: 5px solid rgb(9, 143, 196);
+   border-radius: 13px;
+   text-align: center; 
+justify-content: center;
+   
+   
+}
+ 
+ /* kasparov section------------*/
+ .container-Kasparov{
+    display: flex;
+    background-color: rgb(231, 230, 238);
+    justify-content: center;
+    padding: 60px;
+    font-size: 38px;
+    font-style: italic;
+    flex: 1;
+ }
+.QB{
+   max-width: 500px;
+}
+
+
+ /* card section-----------------*/
+ .container-card{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 40px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   flex: 1;
+ }
+ .call-box{
+    display: flex;
+    max-width: 800px;
+    background-color: rgb(26, 144, 190);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .text-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+    font-family: helvetica;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+
+
+ }
+ .call{
+   font-size: larger;
+   font-weight: 700;
+ }
+ /* footer section--------*/
+ 
+ .container-footer{
+    display: flex;
+    background-color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-size: 23px;
+    flex: 1;
+ }
